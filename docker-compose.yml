@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - PROJECT_NAME=HeatSatAI API
+      - CORS_ORIGINS=http://localhost:3000,http://localhost:80
+    volumes:
+      - ./outputs:/app/outputs
+      - ./models:/app/models
+
+  frontend:
+    build:
+      context: ./Urban Heat Insight
+      dockerfile: Dockerfile
+      args:
+        - VITE_API_URL=http://localhost:8000/api/v1
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend

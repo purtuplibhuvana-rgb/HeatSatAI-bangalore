@@ -1,0 +1,261 @@
+============================================================
+HEATSAT AI DATASET VALIDATION REPORT
+============================================================
+Rows: 9695
+Columns: 41
+Duplicate Rows: 0
+Duplicate Columns: 0
+Duplicate .geo values: 0
+
+============================================================
+COLUMN DATA TYPES
+============================================================
+system:index                        int64
+
+Aspect                              float64
+
+Elevation                           int64
+
+LST                                 float64
+
+LandCover                           int64
+
+NDBI                                float64
+
+NDVI                                float64
+
+NDWI                                float64
+
+Population                          float64
+
+Slope                               float64
+
+.geo                                str
+
+Vegetation_Deficit                  float64
+
+Builtup_Green_Ratio                 float64
+
+Heat_Risk_Index                     float64
+
+Water_Cooling_Index                 float64
+
+Surface_Dryness                     float64
+
+Urbanization_Score                  float64
+
+Population_Heat_Exposure            float64
+
+Elevation_Cooling                   int64
+
+Terrain_Heat_Index                  float64
+
+Aspect_Heat_Index                   float64
+
+Vegetation_Cooling_Potential        float64
+
+Urban_Heat_Intensity                float64
+
+Water_Influence                     float64
+
+Heat_Susceptibility                 float64
+
+Relative_Elevation                  float64
+
+Population_Normalized               float64
+
+LST_Normalized                      float64
+
+Heat_Category                       str
+
+Building_Density                    int64
+
+Road_Length                         float64
+
+Park_Distance                       float64
+
+Water_Distance                      float64
+
+Forest_Distance                     float64
+
+Hospital_Distance                   float64
+
+School_Distance                     float64
+
+Bus_Stop_Distance                   float64
+
+Metro_Distance                      float64
+
+Commercial_Density                  int64
+
+Industrial_Density                  int64
+
+Residential_Density                 int64
+
+============================================================
+MISSING VALUES
+============================================================
+system:index                        0
+
+Aspect                              0
+
+Elevation                           0
+
+LST                                 0
+
+LandCover                           0
+
+NDBI                                0
+
+NDVI                                0
+
+NDWI                                0
+
+Population                          0
+
+Slope                               0
+
+.geo                                0
+
+Vegetation_Deficit                  0
+
+Builtup_Green_Ratio                 0
+
+Heat_Risk_Index                     0
+
+Water_Cooling_Index                 0
+
+Surface_Dryness                     0
+
+Urbanization_Score                  0
+
+Population_Heat_Exposure            0
+
+Elevation_Cooling                   0
+
+Terrain_Heat_Index                  0
+
+Aspect_Heat_Index                   0
+
+Vegetation_Cooling_Potential        0
+
+Urban_Heat_Intensity                0
+
+Water_Influence                     0
+
+Heat_Susceptibility                 0
+
+Relative_Elevation                  0
+
+Population_Normalized               0
+
+LST_Normalized                      0
+
+Heat_Category                       0
+
+Building_Density                    0
+
+Road_Length                         0
+
+Park_Distance                       0
+
+Water_Distance                      0
+
+Forest_Distance                     0
+
+Hospital_Distance                   0
+
+School_Distance                     0
+
+Bus_Stop_Distance                   0
+
+Metro_Distance                      0
+
+Commercial_Density                  0
+
+Industrial_Density                  0
+
+Residential_Density                 0
+
+============================================================
+INFINITE VALUES
+============================================================
+system:index                        0
+Aspect                              0
+Elevation                           0
+LST                                 0
+LandCover                           0
+NDBI                                0
+NDVI                                0
+NDWI                                0
+Population                          0
+Slope                               0
+Vegetation_Deficit                  0
+Builtup_Green_Ratio                 0
+Heat_Risk_Index                     0
+Water_Cooling_Index                 0
+Surface_Dryness                     0
+Urbanization_Score                  0
+Population_Heat_Exposure            0
+Elevation_Cooling                   0
+Terrain_Heat_Index                  0
+Aspect_Heat_Index                   0
+Vegetation_Cooling_Potential        0
+Urban_Heat_Intensity                0
+Water_Influence                     0
+Heat_Susceptibility                 0
+Relative_Elevation                  0
+Population_Normalized               0
+LST_Normalized                      0
+Building_Density                    0
+Road_Length                         0
+Park_Distance                       0
+Water_Distance                      0
+Forest_Distance                     0
+Hospital_Distance                   0
+School_Distance                     0
+Bus_Stop_Distance                   0
+Metro_Distance                      0
+Commercial_Density                  0
+Industrial_Density                  0
+Residential_Density                 0
+
+============================================================
+NEGATIVE VALUE CHECK
+============================================================
+Building_Density                    0
+
+Commercial_Density                  0
+
+Industrial_Density                  0
+
+Residential_Density                 0
+
+Road_Length                         0
+
+Park_Distance                       0
+
+Water_Distance                      0
+
+Forest_Distance                     0
+
+Hospital_Distance                   0
+
+School_Distance                     0
+
+Bus_Stop_Distance                   0
+
+Metro_Distance                      0
+
+============================================================
+SUMMARY STATISTICS
+============================================================
+       system:index    Aspect  Elevation       LST  LandCover      NDBI      NDVI      NDWI  Population     Slope  Vegetation_Deficit  Builtup_Green_Ratio  Heat_Risk_Index  Water_Cooling_Index  Surface_Dryness  Urbanization_Score  Population_Heat_Exposure  Elevation_Cooling  Terrain_Heat_Index  Aspect_Heat_Index  Vegetation_Cooling_Potential  Urban_Heat_Intensity  Water_Influence  Heat_Susceptibility  Relative_Elevation  Population_Normalized  LST_Normalized  Building_Density  Road_Length  Park_Distance  Water_Distance  Forest_Distance  Hospital_Distance  School_Distance  Bus_Stop_Distance  Metro_Distance  Commercial_Density  Industrial_Density  Residential_Density
+count       9695.00  9695.000   9695.000  9695.000   9695.000  9695.000  9695.000  9695.000    9695.000  9695.000            9695.000             9695.000         9695.000             9695.000         9695.000            9695.000                  9695.000           9695.000            9695.000           9695.000                      9695.000              9695.000         9695.000             9695.000            9695.000               9695.000        9695.000          9695.000     9695.000       9695.000        9695.000         9695.000           9695.000         9695.000           9695.000        9695.000            9695.000            9695.000             9695.000
+mean        4847.00   169.888    879.560    34.505     36.722     0.055     0.320    -0.394      60.248     2.230               0.680                0.293           25.121               -0.113            0.448               0.367                  2021.423            111.440              76.987           5856.854                         0.310                10.615          -19.412               34.240              -0.000                  0.099           0.524            76.587     3201.571        132.224         538.813         2606.813           2098.705         1097.382            573.777        4339.873               0.394               0.267                1.660
+std         2798.85   102.393     41.212     2.184     14.723     0.082     0.153     0.138     118.549     1.415               0.153                1.972            6.979                0.047            0.135               0.106                  3919.401             41.212              49.011           3536.449                         0.173                54.341           35.369                2.271              41.212                  0.196           0.074           146.167     2237.935        246.999         421.946         1717.688           1912.605         1093.150            415.855        3032.981               1.563               0.740                3.291
+min            0.00     0.000    705.000    19.116     10.000    -0.652    -0.525    -0.801       0.643     0.000               0.128             -175.031            2.028               -0.350           -0.959              -0.176                    19.451              0.000               0.000              0.000                        -0.541             -4603.178         -310.040               19.338            -174.560                  0.000           0.000             1.000        0.000          0.000           0.000            0.000              0.000            0.000              2.585          12.031               0.000               0.000                0.000
+25%         2423.50    90.000    868.000    33.028     20.000     0.014     0.206    -0.495       3.227     1.329               0.583                0.040           20.764               -0.139            0.344               0.312                   112.360             85.000              44.451           2955.877                         0.187                 1.339          -22.248               32.757             -11.560                  0.004           0.473             1.000     1327.570          0.000         221.341         1282.238            640.252          339.174            268.128        1959.286               0.000               0.000                0.000
+50%         4847.00   171.665    888.000    34.472     40.000     0.065     0.304    -0.406      11.636     1.960               0.696                0.230           26.024               -0.107            0.468               0.387                   398.463            103.000              68.609           5906.873                         0.277                 8.068           -4.041               34.220               8.440                  0.018           0.523             5.000     2803.453         28.460         446.943         2377.800           1572.550          701.466            472.862        3698.170               0.000               0.000                1.000
+75%         7270.50   258.376    906.000    35.980     50.000     0.107     0.417    -0.290      58.717     2.890               0.794                0.475           30.313               -0.082            0.555               0.445                  2048.712            123.000              99.807           8853.826                         0.398                16.917           -1.243               35.762              26.440                  0.096           0.574            74.000     4848.303        150.586         755.474         3634.847           3064.130         1478.310            771.338        6108.668               0.000               0.000                2.000
+max         9694.00   355.486    991.000    48.499     80.000     0.281     0.872     0.658     605.353    23.225               1.525               55.332           50.589                0.314            0.763               0.816                 19724.390            286.000             743.613          13642.259                         1.274              1868.627           45.808               48.248             111.440                  1.000           1.000          1133.000    13654.879       2122.661        2600.337        10165.059          11856.478         6940.024           2909.039       15400.443              35.000              13.000               48.000

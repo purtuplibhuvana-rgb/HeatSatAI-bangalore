@@ -1,0 +1,5 @@
+Intervention,Original_LST,New_LST,Cooling_Effect
+Increase Water Cooling (+20%),34.860325,32.09002,2.7703056
+Reduce Surface Dryness (-20%),34.860325,34.592037,0.26828766
+Reduce Built-up (NDBI -20%),34.860325,34.777832,0.08249283
+Increase Vegetation (NDVI +20%),34.860325,34.873455,-0.013130188
